@@ -1,0 +1,82 @@
+/*========Fonts===========*/
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/*========Universal===========*/
+p {
+  font-size: 16px;
+}
+
+/*=======Header==========*/
+
+#header-logo {
+    width: 90px;
+}
+
+#logo-style {
+    font-family: 'Satisfy', cursive;
+    color: #ff827b;
+    margin-top: 20px;
+}
+
+
+/*============Jumbotron===========*/
+
+.jumbotron {
+    background-image: url('../img/hero.jpg');
+    height: 450px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*=========Thumbnails========*/
+
+.thumb-background {
+    background-color: #eee;
+    border-radius: 5%;
+    margin-left: 4px; /* split thumbnails */
+}
+
+.thumb-background img {
+  margin: 10px 0px;
+}
+
+.caption button {
+  margin-bottom: 10px;
+}
+
+.caption .text-justify {
+  font-size: 16px;
+}
+
+/*======Footer========*/
+
+footer {
+  background-color: #231f20;
+  padding-top: 20px;
+}
+
+.right-border {
+  border-right: 1px solid #333;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bfc0c1;
+
+}
+footer a:hover {
+  text-decoration: none;
+  color: #fff;
+}
