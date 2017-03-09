@@ -19,7 +19,24 @@ p {
     color: #ff827b;
     margin-top: 20px;
 }
+nav {
+  margin-top: 20px;
+}
+.nav-tabs {
+  border: transparent;
+}
 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: transparent;
+  color: #61AEE6;
+}
+
+.nav-font {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #61AEE6;
+}
 
 /*============Jumbotron===========*/
 
@@ -56,18 +73,25 @@ p {
   font-size: 16px;
 }
 
+/*=========Services=========*/
+.service-adopt {
+  color: #61AEE6;
+}
+
+
 /*======Footer========*/
 
 footer {
   background-color: #231f20;
-  padding-top: 20px;
+  padding-top: 30px;
+  margin-top: 60px;
 }
 
 .right-border {
   border-right: 1px solid #333;
 }
 
-.footer-logo {
+#footer-logo {
   height: 60px;
 }
 
@@ -79,4 +103,13 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: #fff;
+}
+
+a span {
+  margin-left: 4px;
+}
+
+.copyright {
+  color: #4F4F4F;
+  margin-bottom: 15px;
 }
