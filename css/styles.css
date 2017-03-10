@@ -19,9 +19,7 @@ p {
     color: #ff827b;
     margin-top: 20px;
 }
-nav {
-  margin-top: 20px;
-}
+
 .nav-tabs {
   border: transparent;
 }
@@ -36,6 +34,11 @@ nav {
   font-weight: 400;
   font-size: 20px;
   color: #61AEE6;
+}
+
+.flex-wrapper {
+  display: flex;
+  align-items: flex-end;
 }
 
 /*============Jumbotron===========*/
