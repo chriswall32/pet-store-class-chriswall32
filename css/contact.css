@@ -1,0 +1,7 @@
+
+
+/*============Body==========*/
+.flex-profile {
+  display: flex;
+  flex-wrap: wrap;
+}
